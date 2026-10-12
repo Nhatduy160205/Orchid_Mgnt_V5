@@ -1,0 +1,37 @@
+# Dependencies (Node / React)
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+target/
+**/target/
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Duplicate backup folders (nếu không cần push lên)
+# chapter15api/
+# chapter15reactjs/
